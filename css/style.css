@@ -92,11 +92,26 @@ p{
 .colonna-centro{
     width: 60%;
     height: 600px;
+    padding: 10px;
 }
 .colonna-centro img{
     width: 100%;
-    height: 281,67;
-    object-fit: contain;
-
+    height: 48%;
+    object-fit: cover;
 }
-
+.colonna-dx{
+    width: 20%;
+    height: 600px;
+}
+.colonna-dx{
+    width: 20%;
+    height: 281,67px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+}
+.cuore::after{
+    content: "\02764";
+    color: red;
+}
